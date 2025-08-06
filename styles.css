@@ -1,0 +1,88 @@
+body {
+  font-family: Arial, sans-serif;
+  background-image: url('https://res.cloudinary.com/dm2lvaaxo/image/upload/v1754460329/11759_s5z35v.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  margin: 0;
+  padding: 20px;
+}
+
+.container {
+  max-width: 1000px;
+  margin: auto;
+  background-color: rgba(255, 255, 255, 0.9); /* Slight transparency for readability */
+  padding: 20px;
+  border-radius: 8px;
+}
+
+h1 {
+  text-align: center;
+}
+
+.search-box {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+input[type="text"] {
+  padding: 10px;
+  width: 60%;
+  max-width: 300px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+button {
+  padding: 10px 20px;
+  margin-left: 10px;
+  background-color: #ffee00;
+  color: black;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-family:Bree Serif;
+}
+
+.test{
+    font-family:Bree Serif
+}
+
+.movie-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
+  gap: 20px;
+}
+.head{
+    text-align:left;
+}
+.movie-card {
+  background-color: #fff;
+  padding: 10px;
+  border-radius: 6px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  text-align: center;
+}
+
+.movie-card img {
+  width: 100%;
+  height: 270px;
+  object-fit: cover;
+  border-radius: 4px;
+}
+
+.movie-card h3 {
+  margin: 10px 0 5px;
+  font-size: 18px;
+}
+
+.movie-card p {
+  color: #777;
+}
+
+.error {
+  color: red;
+  text-align: center;
+  font-weight: bold;
+}

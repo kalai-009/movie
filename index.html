@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Movie Search App</title>
+  <link rel="stylesheet" href="styles.css"/>
+</head>
+<body>
+  <div class="container">
+    <h1 class="test">Movie Search App</h1>
+
+    <!-- Search Box -->
+    <div class="search-box">
+      <input type="text" id="query" placeholder="What You are Looking For?"  class="test"/>
+      <button id="searchBtn">Search</button>
+    </div>
+
+    <!-- Heading with heart -->
+    <h1 class="head" id="heading1">❤️ Most Likely Movies</h1>
+
+    <!-- Static Tamil Movies -->
+    <div id="staticMovies" class="movie-grid">
+         <div class="movie-card">
+        <img src="https://res.cloudinary.com/dm2lvaaxo/image/upload/v1754467368/coolie_szezlx.jpg"alt="Vikram" />
+        <h3>Coolie</h3>
+        <p>2025</p>
+      </div>
+      <div class="movie-card">
+        <img src="https://res.cloudinary.com/dm2lvaaxo/image/upload/v1754463266/8242549_cl6cst.jpg"alt="Vikram" />
+        <h3>Vikram</h3>
+        <p>2022</p>
+      </div>
+      <div class="movie-card">
+        <img src="https://res.cloudinary.com/dm2lvaaxo/image/upload/v1754463267/2543924_vlzwif.jpg" alt="Master" />
+        <h3>Master</h3>
+        <p>2021</p>
+      </div>
+      <div class="movie-card">
+        <img src="https://res.cloudinary.com/dm2lvaaxo/image/upload/v1754463263/8282136_stusvq.jpg" alt="Kaithi" />
+        <h3>Kaithi</h3>
+        <p>2019</p>
+      </div>
+      <div class="movie-card">
+        <img src="https://res.cloudinary.com/dm2lvaaxo/image/upload/v1754463266/bigil-movie-wallpapers_1_dooi4k.jpg" alt="Bigil" />
+        <h3>Bigil</h3>
+        <p>2019</p>
+      </div>
+      <div class="movie-card">
+        <img src="https://res.cloudinary.com/dm2lvaaxo/image/upload/v1754463257/asuran_qlk16p.jpg" alt="Asuran" />
+        <h3>Asuran</h3>
+        <p>2019</p>
+      </div>
+      <div class="movie-card">
+        <img src="https://res.cloudinary.com/dm2lvaaxo/image/upload/v1754463260/top-good-bad-ugly_rxmxm6.jpg" alt="Soorarai Pottru" />
+        <h3>Good Bad Ugly</h3>
+        <p>2025</p>
+      </div>
+      <div class="movie-card">
+        <img src="https://res.cloudinary.com/dm2lvaaxo/image/upload/v1754463257/mersal_d86vhi.jpg" alt="Mersal" />
+        <h3>Mersal</h3>
+        <p>2017</p>
+      </div>
+      <div class="movie-card">
+        <img src="https://res.cloudinary.com/dm2lvaaxo/image/upload/v1754463261/vadachennai_aqdg3j.jpg" />
+        <h3>Vada Chennai</h3>
+        <p>2018</p>
+      </div>
+      <div class="movie-card">
+        <img src="https://res.cloudinary.com/dm2lvaaxo/image/upload/v1754463258/nine_pq826b.jpg" alt="96" />
+        <h3>96</h3>
+        <p>2018</p>
+      </div>
+      <div class="movie-card">
+        <img src="https://res.cloudinary.com/dm2lvaaxo/image/upload/v1754463263/visaranzi_yabadi.jpg" alt="Visaranai" />
+        <h3>Visaranai</h3>
+        <p>2015</p>
+      </div>
+    </div>
+
+    <!-- Dynamic Search Results -->
+    <div id="movies" class="movie-grid"></div>
+  </div>
+
+  <script src="app.js" defer></script>
+</body>
+</html>
